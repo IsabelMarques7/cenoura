@@ -4,7 +4,7 @@
 }
 
 html{
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 header{
@@ -46,23 +46,48 @@ a:hover{
 
 .profile01{
     width: 100%;
-    height: 500px;
-    background-color: green;
+    height: 800px;
+    background-color: #803953;
     margin-top: 30px;
 }
 .profile02{
     width: 100%;
     height: 500px;
-    background-color: yellow;
+    background-color: #2b0a16;
 }
 .tec{
     width: 100%;
     height: 500px;
-    background-color: grey;
+    background-color: #611430;
 }
 .contact{
     width: 100%;
     height: 500px;
-    background-color: red;
+    background-color: #FE86B1;
+}
+
+.circle {
+    background-color: #FD649C ;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    top: 90px;
+    left: 240px;
+  }
+  
+  .circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .columnLabelWithInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
 }
 
