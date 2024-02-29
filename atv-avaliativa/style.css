@@ -99,11 +99,12 @@ a:hover{
 }
 .img-01{
     position: absolute;
-    left: 0px;
+    left: -90px;
     width: auto;
     height: 500px;
     transition: all 400ms linear;
 }
+
 .img-01:hover{
     cursor: pointer;
     transform: scale(1.2);
