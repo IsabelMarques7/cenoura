@@ -111,9 +111,9 @@
         aria-label="Default select example"
       >
         <option selected>Selecione um prato</option>
-        <option value="1">Prato feito</option>
-        <option value="2">Strogonof</option>
-        <option value="3">Prato Vegano</option>
+        <option value="Prato feito">Prato feito</option>
+        <option value="Strogonof">Strogonof</option>
+        <option value="Prato Vegano">Prato Vegano</option>
       </select>
       <br />
       <h5>Bebida</h5>
@@ -123,9 +123,9 @@
         aria-label="Default select example"
       >
         <option selected>Selecione uma bebida</option>
-        <option value="1">Agua</option>
-        <option value="2">Refrigerante</option>
-        <option value="3">Suco de laranja</option>
+        <option value="Agua">Agua</option>
+        <option value="Refrigerante">Refrigerante</option>
+        <option value="Suco de laranja">Suco de laranja</option>
       </select>
       <br />
       <h5>Sobremesa</h5>
@@ -134,10 +134,10 @@
         class="form-select"
         aria-label="Default select example"
       >
-        <option selected>Selecione um sobremesa</option>
-        <option value="1">Torta de morango</option>
-        <option value="2">Pudim de leite</option>
-        <option value="3">Tiramissu</option>
+        <option selected>Selecione uma sobremesa</option>
+        <option value="Torta de morango">Torta de morango</option>
+        <option value="Pudim de leite">Pudim de leite</option>
+        <option value="Tiramissu">Tiramissu</option>
       </select>
       <br />
       <button
@@ -152,21 +152,22 @@
       </button>
     </div>
     <br />
-    <div class="totalDiv">
-      <span class="badge bg-primary">Primary</span>
-      <span class="badge bg-secondary">Secondary</span>
-    </div>
-    <br />
-    <div>
-      <p>Prato:</p>
-      <p id="prato-pronto"></p>
+
+    <div class="totalDiv" id="total">
+      <div>
+        <span class="badge bg-primary">Total:</span>
+        <span class="badge bg-secondary" id="resultado"></span>
+      </div>
       <br />
-      <p>Bebida:</p>
-      <p id="bebida-pronto"></p>
-      <br />
-      <p>Sobremesa:</p>
-      <p id="sobremesa-pronto"></p>
-      <br />
+      <div>
+        <p>Prato:</p>
+        <p id="prato-pronto"></p>
+        <p>Bebida:</p>
+        <p id="bebida-pronto"></p>
+        <p>Sobremesa:</p>
+        <p id="sobremesa-pronto"></p>
+        <br />
+      </div>
     </div>
   </body>
 </html>
